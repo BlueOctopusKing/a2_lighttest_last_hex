@@ -1,0 +1,49 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="ue*kuHC/-@Lp]Jdptn_j" x="277" y="-234"><comment>This keeps going on forever</comment><statement name="HANDLER"><block type="controls_if" id="cZyf-2NHkIQ[B]R7sps|"><mutation else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="^f9c_Z/]oLE64;o![E[="><field name="OP">GT</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="device_get_light_level" id="k:3`69NDeJP#zDWbfJ^1"><comment>This is the basic light level.</comment></block></value><value name="B"><shadow type="math_number" id="1j`CUxwU}3~gw}/s},uS"><field name="NUM">128</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="N:t]8|)MgG|GjBt=#$_3"><field name="LEDS">`
+        . . . . . 
+        # . . . . 
+        # . . . . 
+        # . . . . 
+        . . . . .
+        `</field><comment>This shows a moon flying across the screen</comment><next><block type="device_show_leds" id="n5m3%LqX1lazQ+u8#0kl"><field name="LEDS">`
+        # . . . . 
+        # # . . . 
+        # # . . . 
+        # # . . . 
+        # . . . .
+        `</field><next><block type="device_show_leds" id=".aPR`D;qHJ!1#2`=oCmw"><field name="LEDS">`
+        # # . . . 
+        . # # . . 
+        . # # . . 
+        . # # . . 
+        # # . . .
+        `</field><next><block type="device_show_leds" id="^LuYEN|y-w#EV,E/]hQz"><field name="LEDS">`
+        . # # . . 
+        . . # # . 
+        . . # # . 
+        . . # # . 
+        . # # . .
+        `</field><next><block type="device_show_leds" id="f9dMake#MsbWVb]S;fai"><field name="LEDS">`
+        . . # # . 
+        . . . # # 
+        . . . # # 
+        . . . # # 
+        . . # # .
+        `</field><next><block type="device_show_leds" id="xx=uZUx`^n-J9ze$23sI"><field name="LEDS">`
+        . . . # # 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        . . . # #
+        `</field><next><block type="device_show_leds" id="i!6P]^@`rrJB/|q=`E4K"><field name="LEDS">`
+        # . . . # 
+        # # . . . 
+        # # . . . 
+        # # . . . 
+        # . . . #
+        `</field><next><block type="device_show_leds" id="HQ%DFhMV)aMMA}#k=;Q["><field name="LEDS">`
+        # # . . . 
+        . # # . . 
+        . # # . . 
+        . # # . . 
+        # # . . .
+        `</field><next><block type="device_print_message" id="6TFISYkeT#Mg@wDl;SzI"><value name="text"><shadow type="text" id="zMCbdfx1o#%-P)7(7d]4"><field name="TEXT">Nightime</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement><statement name="ELSE"><block type="device_print_message" id=".=(!dahYb6-?N.q0gbhf"><value name="text"><shadow type="text" id=".2`qN:Lno8.8^RBCD_7?"><field name="TEXT">Daytime</field></shadow></value></block></statement></block></statement></block></xml>
